@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Coffee Corner</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#special-offers">Offers</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Your Daily Dose of Energy</h2>
+            <p>Enjoy freshly brewed coffee and handcrafted snacks.</p>
+            <button onclick="location.href='#menu'">Explore Our Menu</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Drink</th>
+                    <th>Size</th>
+                    <th>Price (Rs.)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Espresso</td>
+                    <td>Small</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Latte</td>
+                    <td>Medium</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Cappuccino</td>
+                    <td>Large</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Mocha</td>
+                    <td>Regular</td>
+                    <td>280</td>
+                </tr>
+                <tr>
+                    <td>Flat White</td>
+                    <td>Regular</td>
+                    <td>270</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Free Wi-Fi for all customers</li>
+            <li>Cozy seating and workspaces</li>
+            <li>Customizable coffee blends</li>
+            <li>Special discounts for students</li>
+            <li>Coffee subscription plans</li>
+        </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-gallery">
+            <img src="coffee1.jpg" alt="Coffee Image 1" class="gallery-image">
+            <img src="coffee2.jpg" alt="Coffee Image 2" class="gallery-image">
+            <img src="coffee3.jpg" alt="Coffee Image 3" class="gallery-image">
+            <img src="coffee4.jpg" alt="Coffee Image 4" class="gallery-image">
+            <img src="coffee5.jpg" alt="Coffee Image 5" class="gallery-image">
+        </div>
+    </section>
+
+   
+
+    <!-- Special Offers Section -->
+<section id="special-offers">
+    <h2>Special Offers</h2>
+    <div class="offer-container">
+        <div class="offer">
+            <h3>Buy 1 Get 1 Free</h3>
+            <p>Enjoy our freshly brewed Cappuccinos with this amazing deal. Valid every Monday!</p>
+        </div>
+        <div class="offer">
+            <h3>Happy Hour Discount</h3>
+            <p>Get 20% off on all drinks from 3 PM to 5 PM, Monday through Friday.</p>
+        </div>
+        <div class="offer">
+            <h3>Student Specials</h3>
+            <p>Flash your student ID to receive 10% off your entire order!</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/contact" method="POST">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+     
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Coffee Corner | All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
