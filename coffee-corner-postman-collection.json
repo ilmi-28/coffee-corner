@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "735dfd17-b611-4ddb-9677-058c2acc1934",
+		"name": "Coffee Corner API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43136205"
+	},
+	"item": [
+		{
+			"name": "HTTP Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ilmi",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ilmi@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Hello from Coffee-corner!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/contact",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"contact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Database",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"messages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
